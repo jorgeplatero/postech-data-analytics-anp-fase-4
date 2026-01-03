@@ -43,9 +43,9 @@ Abaixo estão listadas as tecnologias utilizadas no desenvolvimento da solução
 | Componente | Tecnologia | Descrição |
 | :--- | :--- | :--- |
 | **Frontend/App** | **Power BI** | Ferramenta utilizada para a criação e publicação do dashboard. |
-| **Ambiente** | **Python** | Linguagem utilizada para processamento e suporte ao projeto. |
-| **Banco de Dados** | **PostgreSQL** | Sistema gerenciador de banco de dados relacional para armazenamento dos dados. |
+| **Banco de Dados** | **PostgreSQL** | SGBD para armazenamento dos dados. |
 | **Orquestração/ETL** | **KNIME** | Plataforma utilizada para a construção do fluxo de extração, transformação e carga. |
+| **Ambiente** | **Python** | Linguagem utilizada para análise de dados. |
 
 ### Fontes de Dados
 
