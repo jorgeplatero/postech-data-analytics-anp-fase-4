@@ -1,4 +1,4 @@
-# Aplicativo Web com Preço de Combustíveis Ofertados nos Postos Brasileiros
+# Dashboard com Indicadores de Preço de Combustíveis Ofertados nos Postos Brasileiros
 
 ## Descrição do Projeto
 
