@@ -55,4 +55,4 @@ Utilizou-se os dados de 2018 a 2022.
 
 ### Link para a Aplicação
 
-**Dashboard Power BI:** <a style='text-decoration:none;' href='https://app.powerbi.com/view?r=eyJrIjoiNGJlOTY3ZmYtZjZlMS00ZTEzLWJiMmMtMWRjYjJiZTBlYTAzIiwidCI6IjFmZTA1YTY2LWNhMjYtNGJmZC1hZDlkLWQzMDRhZGViMjIwNSJ9' target='_blank'>Acesse aqui</a>.
+Dashboard Power BI: <a style='text-decoration:none;' href='https://app.powerbi.com/view?r=eyJrIjoiNGJlOTY3ZmYtZjZlMS00ZTEzLWJiMmMtMWRjYjJiZTBlYTAzIiwidCI6IjFmZTA1YTY2LWNhMjYtNGJmZC1hZDlkLWQzMDRhZGViMjIwNSJ9' target='_blank'>Acesse aqui</a>.
