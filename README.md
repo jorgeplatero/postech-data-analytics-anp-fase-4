@@ -1,4 +1,4 @@
-# DataViz com Preço de Combustíveis Ofertados nos Postos Brasileiros
+# Aplicativo Web com Preço de Combustíveis Ofertados nos Postos Brasileiros
 
 ## Descrição do Projeto
 
