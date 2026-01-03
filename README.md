@@ -49,10 +49,10 @@ Abaixo estão listadas as tecnologias utilizadas no desenvolvimento da solução
 
 ### Fontes de Dados
 
-Link para a base de dados: <a style='text-decoration:none;' href='https://www.gov.br/anp/pt-br/centrais-de-conteudo/dados-abertos/serie-historica-de-precos-de-combustiveis'>link</a>.
+Link para a base de dados: https://www.gov.br/anp/pt-br/centrais-de-conteudo/dados-abertos/serie-historica-de-precos-de-combustiveis
 
 Utilizou-se os dados de 2018 a 2022.
 
 ### Link para a Aplicação
 
-Dashboard Power BI: <a style='text-decoration:none;' href='https://app.powerbi.com/view?r=eyJrIjoiNGJlOTY3ZmYtZjZlMS00ZTEzLWJiMmMtMWRjYjJiZTBlYTAzIiwidCI6IjFmZTA1YTY2LWNhMjYtNGJmZC1hZDlkLWQzMDRhZGViMjIwNSJ9' target='_blank'>Acesse aqui</a>.
+Dashboard Power BI: https://app.powerbi.com/view?r=eyJrIjoiNGJlOTY3ZmYtZjZlMS00ZTEzLWJiMmMtMWRjYjJiZTBlYTAzIiwidCI6IjFmZTA1YTY2LWNhMjYtNGJmZC1hZDlkLWQzMDRhZGViMjIwNSJ9
