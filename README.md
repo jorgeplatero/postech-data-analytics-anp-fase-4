@@ -42,10 +42,10 @@ Abaixo estão listadas as tecnologias utilizadas no desenvolvimento da solução
 
 | Componente | Tecnologia | Descrição |
 | :--- | :--- | :--- |
-| **Linguagem** | **Python** | Linguagem utilizada para processamento e suporte ao projeto. |
+| **Frontend/App** | **Power BI** | Ferramenta utilizada para a criação e publicação do dashboard. |
+| **Ambiente** | **Python** | Linguagem utilizada para processamento e suporte ao projeto. |
 | **Banco de Dados** | **PostgreSQL** | Sistema gerenciador de banco de dados relacional para armazenamento dos dados. |
-| **Visualização** | **Power BI** | Ferramenta utilizada para a criação e publicação do dashboard de indicadores. |
-| **Ferramenta ETL** | **KNIME** | Plataforma utilizada para a construção do fluxo de extração, transformação e carga. |
+| **Orquestração/ETL** | **KNIME** | Plataforma utilizada para a construção do fluxo de extração, transformação e carga. |
 
 ### Fontes de Dados
 
@@ -54,7 +54,5 @@ Link para a base de dados: <a style='text-decoration:none;' href='https://www.go
 Utilizou-se os dados de 2018 a 2022.
 
 ### Link para a Aplicação
-
-O dashboard pode ser acessado através do link abaixo:
 
 **Dashboard Power BI:** <a style='text-decoration:none;' href='https://app.powerbi.com/view?r=eyJrIjoiNGJlOTY3ZmYtZjZlMS00ZTEzLWJiMmMtMWRjYjJiZTBlYTAzIiwidCI6IjFmZTA1YTY2LWNhMjYtNGJmZC1hZDlkLWQzMDRhZGViMjIwNSJ9' target='_blank'>Acesse aqui</a>.
