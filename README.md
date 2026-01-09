@@ -6,7 +6,7 @@ Este projeto consiste em um dashboard que reúne indicadores dos preços de comb
 
 | Componente | Tecnologia | Versão | Descrição |
 | :--- | :--- | :--- | :--- |
-| **Plataforma BI** | **Power BI** | `-` | Plataforma de BI utilizada para o desenvolvimento do dashboard |
+| **Plataforma BI** | **Power BI** | `-` | Plataforma de BI para desenvolvimento de dashboards |
 | **Banco de Dados** | **PostgreSQL** | `13+` | SGBD para armazenamento de dados |
 | **Orquestração** | **KNIME** | `4.7.x` | Plataforma para gerenciamento e agendamento de pipelines |
 | **Linguagem** | **Python** | `3.10+` | Linguagem para desenvolvimento de scripts |
