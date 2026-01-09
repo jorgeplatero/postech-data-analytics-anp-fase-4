@@ -4,8 +4,6 @@ Este projeto consiste em um dashboard que reúne indicadores dos preços de comb
 
 ### Tecnologias
 
-A aplicação utiliza um stack moderno focado em engenharia e visualização de dados.
-
 | Componente | Tecnologia | Versão | Descrição |
 | :--- | :--- | :--- | :--- |
 | **Plataforma BI** | **Power BI** | `-` | Plataforma de BI utilizada para o desenvolvimento do dashboard |
@@ -19,6 +17,4 @@ O fluxo de dados consome a série histórica oficial do portal de [dados abertos
 
 ### Deploy
 
-O dashboard está disponível via Power BI Service.
-
-Link para o dashboard: https://app.powerbi.com/view?r=eyJrIjoiNGJlOTY3ZmYtZjZlMS00ZTEzLWJiMmMtMWRjYjJiZTBlYTAzIiwidCI6IjFmZTA1YTY2LWNhMjYtNGJmZC1hZDlkLWQzMDRhZGViMjIwNSJ9
+O [dashboard](https://app.powerbi.com/view?r=eyJrIjoiNGJlOTY3ZmYtZjZlMS00ZTEzLWJiMmMtMWRjYjJiZTBlYTAzIiwidCI6IjFmZTA1YTY2LWNhMjYtNGJmZC1hZDlkLWQzMDRhZGViMjIwNSJ9) está disponível via Power BI Service.
