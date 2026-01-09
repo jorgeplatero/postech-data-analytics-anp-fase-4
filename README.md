@@ -1,58 +1,70 @@
 # Dashboard com Indicadores de Preço de Combustíveis Ofertados nos Postos Brasileiros
 
-Este projeto consiste em um dashboard que reune indicadores referentes ao preço dos combutíveis praticado em postos brasileiros e publicados pela ANP (Agência Nacional do Petróleo, Gás Natural e Biocombustíveis).
+Este projeto consiste em um dashboard que reúne indicadores dos preços de combustíveis praticados em postos brasileiros, utilizando dados oficiais publicados pela ANP (Agência Nacional do Petróleo, Gás Natural e Biocombustíveis).
 
-### Arquitetura do Projeto
+### Pré-requisitos
 
-<img src='https://github.com/jorgeplatero/postech_fase_4_anp/blob/b1addcdd199384a9c5869115ee81e90fa8f17571/img/arquitetura_anp.png' width='500'/> 
+Certifique-se de ter as seguintes ferramentas instaladas:
 
-#### Banco de Dados
+*   PostgreSQL
+*   KNIME Analytics Platform
+*   Power BI Desktop
+*   Python 3.10+
 
-A tabela abaixo foi criada para comportar os dados:
+### Instalação
+
+Siga os passos abaixo para preparar o ambiente:
+
+1. Banco de Dados:
+
+Execute o script DDL no seu PostgreSQL para criar a tabela que receberá os dados:
 
 ```sql
 CREATE TABLE anp.preco_combustivel(
-	regiao 				varchar(255)
-	,estado				varchar(255)
-	,municipio			varchar(255)
-	,revenda			varchar(255)
-	,cnpj				varchar(255)
-	,nome_rua			varchar(255)	
-	,numero_rua			varchar(255)
-	,complemento		        varchar(255)
-	,bairro				varchar(255)
-	,cep				varchar(255)
-	,produto			varchar(255)
-	,data_coleta		        date
-	,valor_venda		        float
-	,unidade_medida		        varchar(255)
-	,bandeira			varchar(255)
-)
+    regiao          varchar(255),
+    estado          varchar(255),
+    municipio       varchar(255),
+    revenda         varchar(255),
+    cnpj            varchar(255),
+    nome_rua        varchar(255),
+    numero_rua      varchar(255),
+    complemento     varchar(255),
+    bairro          varchar(255),
+    cep             varchar(255),
+    produto         varchar(255),
+    data_coleta     date,
+    valor_venda     float,
+    unidade_medida  varchar(255),
+    bandeira        varchar(255)
+);
 ```
 
-#### ETL dos Dados
+2. Orquestração:
+   
+Abra o KNIME e importe o workflow contido na pasta `/etl` deste repositório e configure o nó **DB Connector** com suas credenciais do PostgreSQL.
 
-Os dados foram inseridos no banco de dados por meio da ferramenta de ETL KNIME. O fluxo do ETL foi construído na aplicação conforme ilustrado abaixo:
+### Como Rodar a Aplicação
 
-![etl knime](https://github.com/jorgeplatero/postech_fase_4_anp/blob/c4769c12a8050c4f7ccb68ebf8bf9d74cd2de788/img/etl_knime.png)
+Para atualizar e visualizar os indicadores, execute o workflow no KNIME, que irá realizar a extração dos dados da ANP, limpeza e carga no PostgreSQL. Abra o arquivo `.pbix` no Power BI Desktop, conecte co ma tabela criada no PostgreSQL e atualize os dados.
+
 
 ### Tecnologias
 
-Abaixo estão listadas as tecnologias utilizadas no desenvolvimento da solução:
+A aplicação utiliza um stack moderno focado em engenharia e visualização de dados.
 
-| Componente | Tecnologia | Descrição |
-| :--- | :--- | :--- |
-| **Frontend/App** | **Power BI** | Ferramenta utilizada para a criação e publicação do dashboard. |
-| **Banco de Dados** | **PostgreSQL** | SGBD para armazenamento dos dados. |
-| **Orquestração/ETL** | **KNIME** | Plataforma utilizada para a construção do fluxo de extração, transformação e carga. |
-| **Ambiente** | **Python** | Linguagem utilizada para análise de dados. |
+| Componente | Tecnologia | Versão | Descrição |
+| :--- | :--- | :--- | :--- |
+| **Plataforma BI** | **Power BI** | `-` | Plataforma de BI utilizada para o desenvolvimento do dashboard |
+| **Banco de Dados** | **PostgreSQL** | `13+` | SGBD para armazenamento dos dados. |
+| **Orquestração/ETL** | **KNIME** | `4.7.x` | Plataforma para gerenciamento e agendamento de pipelines |
+| **Linguagem** | **Python** | `3.10+` |Linguagem de programação base para o desenvolvimento dos scripts |
 
 ### Fontes de Dados
 
-Link para a base de dados: https://www.gov.br/anp/pt-br/centrais-de-conteudo/dados-abertos/serie-historica-de-precos-de-combustiveis
+O fluxo de dados consome a série histórica oficial do portal de [dados abertos da ANP](https://www.gov.br/anp/pt-br/centrais-de-conteudo/dados-abertos/serie-historica-de-precos-de-combustiveis), integrando anos de registros da ANP em um ambiente otimizado para análise.
 
-Utilizou-se os dados de 2018 a 2022.
+### Deploy
 
-### Link para a Aplicação
+O dashboard está disponível via Power BI Service.
 
-Dashboard Power BI: https://app.powerbi.com/view?r=eyJrIjoiNGJlOTY3ZmYtZjZlMS00ZTEzLWJiMmMtMWRjYjJiZTBlYTAzIiwidCI6IjFmZTA1YTY2LWNhMjYtNGJmZC1hZDlkLWQzMDRhZGViMjIwNSJ9
+Link para o dashboard: https://app.powerbi.com/view?r=eyJrIjoiNGJlOTY3ZmYtZjZlMS00ZTEzLWJiMmMtMWRjYjJiZTBlYTAzIiwidCI6IjFmZTA1YTY2LWNhMjYtNGJmZC1hZDlkLWQzMDRhZGViMjIwNSJ9
