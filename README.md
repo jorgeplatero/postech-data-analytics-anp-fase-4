@@ -10,6 +10,7 @@ Este projeto consiste em um dashboard que reúne indicadores dos preços de comb
 | **Banco de Dados** | **PostgreSQL** | `13+` | SGBD para armazenamento dos dados. |
 | **Orquestração/ETL** | **KNIME** | `4.7.x` | Plataforma para gerenciamento e agendamento de pipelines |
 | **Linguagem** | **Python** | `3.10+` |Linguagem de programação base para o desenvolvimento dos scripts |
+| **Gerenciamento** | **Venv** | `-` | Gerenciador de ambientes virtuais para isolamento de dependências |
 
 ### Fontes de Dados
 
