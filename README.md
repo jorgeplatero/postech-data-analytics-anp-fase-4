@@ -13,8 +13,12 @@ Este projeto consiste em um dashboard que reúne indicadores dos preços de comb
 
 ### Fontes de Dados
 
-O fluxo de dados consome a série histórica oficial do portal de [dados abertos da ANP](https://www.gov.br/anp/pt-br/centrais-de-conteudo/dados-abertos/serie-historica-de-precos-de-combustiveis), integrando anos de registros da ANP em um ambiente otimizado para análise.
+O fluxo de dados consome a série histórica oficial do portal de dados abertos da ANP, integrando anos de registros da ANP em um ambiente otimizado para análise.
+
+Link para base de dados: https://www.gov.br/anp/pt-br/centrais-de-conteudo/dados-abertos/serie-historica-de-precos-de-combustiveis
 
 ### Deploy
 
-O [dashboard](https://app.powerbi.com/view?r=eyJrIjoiNGJlOTY3ZmYtZjZlMS00ZTEzLWJiMmMtMWRjYjJiZTBlYTAzIiwidCI6IjFmZTA1YTY2LWNhMjYtNGJmZC1hZDlkLWQzMDRhZGViMjIwNSJ9) está disponível via Power BI Service.
+O dashboard está disponível via Power BI Service.
+
+Link para o dashboard: https://app.powerbi.com/view?r=eyJrIjoiNGJlOTY3ZmYtZjZlMS00ZTEzLWJiMmMtMWRjYjJiZTBlYTAzIiwidCI6IjFmZTA1YTY2LWNhMjYtNGJmZC1hZDlkLWQzMDRhZGViMjIwNSJ9
